@@ -1,0 +1,12 @@
+{
+  "name": "DailyBattleship",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.13.0",
+    "wrangler": "^2.0.15"
+  },
+  "scripts": {
+    "run": "./node_modules/.bin/wrangler dev",
+    "publish": "./node_modules/.bin/wrangler publish"
+  }
+}
